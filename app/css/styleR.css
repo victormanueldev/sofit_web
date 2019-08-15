@@ -1,0 +1,221 @@
+/*
+Template Name: Material Pro Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/**
+ * Table Of Content
+ *
+ * 	1. Globals
+ *	2. Headers
+ *	3. Navigations
+ *	4. Banners
+ *	5. Footers
+ *	6. app
+ *	7. Widgets
+ *	8. Custom Templates
+ */
+/*
+Template Name: Material Pro Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Preloader*/
+@import url(../scss/icons/font-awesome/css/font-awesome.min.css);
+@import url(../scss/icons/simple-line-icons/css/simple-line-icons.css);
+@import url(../scss/icons/weather-icons/css/weather-icons.min.css);
+@import url(../scss/icons/linea-icons/linea.css);
+@import url(../scss/icons/themify-icons/themify-icons.css);
+@import url(../scss/icons/flag-icon-css/flag-icon.min.css);
+@import url(../scss/icons/material-design-iconic-font/css/materialdesignicons.min.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url(../css/spinners.css);
+@import url(../css/animate.css);
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff; }
+  .preloader .cssload-speeding-wheel {
+    position: absolute;
+    top: calc(50% - 3.5px);
+    left: calc(50% - 3.5px); }
+
+/*
+Template Name: Material Pro Admin
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/**
+ * Table Of Content
+ *
+ * 	1. Globals
+ *	2. Headers
+ *	3. Navigations
+ *	4. Banners
+ *	5. Footers
+ *	6. Posts
+ *	7. Widgets
+ *	8. Custom Templates
+ */
+/*******************
+Global Styles
+*******************/
+* {
+  outline: none; }
+
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  color: #67757c;
+  font-weight: 300; }
+
+html {
+  position: relative;
+  min-height: 100%;
+  background: #ffffff; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+/*============MYCSS============*/
+
+.card-body{
+  padding: 60px;
+}
+
+/*============MYCSS============*/
+
+
+/*******************
+Buttons
+******************/
+.btn {
+  padding: 7px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.5); 
+  color: white;
+}
+
+.btn:hover {
+  background-color: #222; 
+  color: #FC704C;
+  -moz-transition: .3s linear;
+  -webkit-transition: .3s ease-out;
+  transition: .3s linear;
+}
+
+.btn-return{
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-return:hover{
+  background-color: #222;
+  color: #FC704C;
+  -moz-transition: .3s linear;
+  -webkit-transition: .3s ease-out;
+  transition: .3s linear;
+}
+
+/*==============================================================
+Form Material page-Efecto
+ ============================================================== */
+/*Material inputs*/
+.form-material .form-group {
+  overflow: hidden; }
+
+.form-material .form-control {
+  background-color: transparent;
+  background-position: center bottom, center calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-size: 0 2px, 100% 1px;
+  padding: 0;
+  -webkit-transition: background 0s ease-out 0s;
+  -o-transition: background 0s ease-out 0s;
+  transition: background 0s ease-out 0s; }
+
+.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#009efb), to(#009efb)), -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#d9d9d9));
+  background-image: -webkit-linear-gradient(#009efb, #009efb), -webkit-linear-gradient(#d9d9d9, #d9d9d9);
+  background-image: -o-linear-gradient(#009efb, #009efb), -o-linear-gradient(#d9d9d9, #d9d9d9);
+  background-image: linear-gradient(#fc704c, #fc704c), linear-gradient(#d9d9d9, #d9d9d9);
+  border: 0 none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  float: none; }
+
+.form-material .form-control.focus, .form-material .form-control:focus {
+  background-size: 100% 2px, 100% 1px;
+  outline: 0 none;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+.form-control-line .form-group {
+  overflow: hidden; }
+
+.form-control-line .form-control {
+  border: 0px;
+  border-radius: 0px;
+  padding-left: 0px;
+  border-bottom: 1px solid #d9d9d9; }
+  .form-control-line .form-control:focus {
+    border-bottom: 1px solid #009efb; }
+
+
+/*******************
+Login register and recover password Page
+******************/
+.login-register {
+  overflow: hidden;
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding: 50px 0 0 0;
+  position: relative;; }
+
+.login-box {
+  width: 400px;
+  margin: 0 auto;
+}
+  .login-box .footer {
+    width: 100%;
+    left: 0px;
+    right: 0px; }
+  .login-box .social {
+    display: block;
+    margin-bottom: 30px; }
+
+#recoverform {
+  display: none; }
+
+.login-sidebar {
+  padding: 0px;
+  margin-top: 0px; }
+  .login-sidebar .login-box {
+    right: 0px;
+    position: absolute;
+    height: 100%; }

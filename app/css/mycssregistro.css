@@ -1,0 +1,213 @@
+body{
+	font-family: 'Rubik', sans-serif; 
+	color: white;
+	background-image: url(../Img/Fondo6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	/*overflow-y: scroll;*/
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+label{
+  margin-top: 12px;
+}
+
+.card-body select{
+	color: #222;
+}
+
+.Titulo{
+	color: #222;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600px;
+	font-size: 80px;
+	margin: 20px auto;
+}
+
+.Contenedor{
+	width: 60%;
+	min-height: 880px;
+	/*margin: 100px auto auto auto;*/
+	margin: auto;
+	background-color: rgb(0, 0, 0, 0.5);
+	padding: 40px;
+	border-radius: 15px;
+}
+
+.Form input, select, button{
+	margin: auto;
+  color: #222;
+}
+
+.Form label{
+	display: inline-block;
+  font-weight: initial;
+}
+
+.Form-Boton button{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+  display: block;
+}
+
+.Form-Boton button:hover{
+	background-color: #222;
+	color: #FC704C;
+	border: 1px solid #222;
+	-moz-transition: .3s linear;
+	-webkit-transition: .3s ease-out;
+	transition: .3s linear;
+}
+
+.Form-Boton a{
+  text-decoration: none;
+  color: white;
+  /*float: center;*/
+  /*margin-top: 20px;*/
+}
+
+.Form-Boton a:hover{
+  color: #FC704C;
+  -moz-transition: .3s linear;
+  -webkit-transition: .3s ease-out;
+  transition: .3s linear;
+}
+
+.Form-Boton{
+	/*padding-left: 15px;*/
+  padding: 0 180px;
+}
+
+.datepicker{
+  color: #222;
+}
+
+
+/*==================EFECTOINPUT==================*/
+
+/*==============================================================
+Form Material page-Efecto
+ ============================================================== */
+/*Material inputs*/
+/*.form-material .form-group {
+  overflow: hidden; }
+
+.form-material .form-control {
+  background-color: transparent;
+  background-position: center bottom, center calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-size: 0 2px, 100% 1px;
+  padding: 0;
+  -webkit-transition: background 0s ease-out 0s;
+  -o-transition: background 0s ease-out 0s;
+  transition: background 0s ease-out 0s; }
+
+.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#009efb), to(#009efb)), -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#d9d9d9));
+  background-image: -webkit-linear-gradient(#009efb, #009efb), -webkit-linear-gradient(#d9d9d9, #d9d9d9);
+  background-image: -o-linear-gradient(#009efb, #009efb), -o-linear-gradient(#d9d9d9, #d9d9d9);
+  background-image: linear-gradient(#fc704c, #fc704c), linear-gradient(#d9d9d9, #d9d9d9);
+  border: 0 none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  float: none; }
+
+.form-material .form-control.focus, .form-material .form-control:focus {
+  background-size: 100% 2px, 100% 1px;
+  outline: 0 none;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+.form-control-line .form-group {
+  overflow: hidden; }
+
+.form-control-line .form-control {
+  border: 0px;
+  border-radius: 0px;
+  padding-left: 0px;
+  border-bottom: 1px solid #d9d9d9; }
+  .form-control-line .form-control:focus {
+    border-bottom: 1px solid #009efb; }
+*/
+
+/*******************
+Login register and recover password Page
+******************/
+.login-register {
+  /*overflow: hidden;*/
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding: 50px 0 0 0;
+  position: relative;; }
+
+.login-box {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px;
+}
+  .login-box .footer {
+    width: 100%;
+    left: 0px;
+    right: 0px; }
+  .login-box .social {
+    display: block;
+    margin-bottom: 30px; }
+
+#recoverform {
+  display: none; }
+
+.login-sidebar {
+  padding: 0px;
+  margin-top: 0px; }
+  .login-sidebar .login-box {
+    right: 0px;
+    position: absolute;
+    height: 100%; }
+
+/*==================EFECTOINPUT==================*/
+
+
+@media (max-width: 770px){
+	.Contenedor{
+		width: 70%;
+	}
+
+  .login-box {
+  width: 80%;
+  }
+
+  .Form-Boton{
+  /*padding-left: 15px;*/
+  padding: 0;
+}
+
+}
+
+@media (max-width: 500px){
+	.Contenedor{
+		width: 100%;
+		margin: 0;
+	}
+
+  .login-box {
+  width: 100%;
+  }
+
+  .Form-Boton{
+  /*padding-left: 15px;*/
+  padding: 0;
+  }
+
+}

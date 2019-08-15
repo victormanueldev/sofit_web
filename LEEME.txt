@@ -1,0 +1,29 @@
+Hola a tod@s! 
+
+Aqui está el proyecto con todos los cambios realizados, tanto el diseño como los 
+cambios que algunos de ustedes sugirieron, este será el proyecto que se presentará 
+en la sustentación. El tiempo para hacer cambios en la logica del sistema se agotó
+entonces como dice el adagio: "Ya lo que fue, fue".
+
+Agradezco a cada uno de ustedes por haber puesto su granito de arena para el desarrollo
+del proyecto. Ya nos falta poco para terminar así que ánimo y dedicación.
+
+NOTA: Sigan estas instrucciones:
+
+- Para la correcta visualización y ejecución del sistema, estedes deben descargar
+el archivo SofitWeb_1.3 que les he compartido. Lo descomprimen(si tienen una version antigua borrenla)
+
+- Abran phpmyadmin y borren la base de datos con el nombre "bd_sofit" si la tienen. Luego vuelven a 
+crear otra base de datos con el nombre "bd_sofit" y cotejamiento "utf8_general_ci"
+
+- Peguen cualquiera de estos link: http://localhost/SofitWeb_1.3/index.php ó  http://localhost:8080/SofitWeb_1.3/index.php
+para los que tiene configurado apache con este servidor y ejecuten la aplicación.
+
+- Para iniciar sesion como administrador, usen 123 y contraseña 123
+- Para iniciar sesion como Entrenadorm usen 456 contraseña 123
+- Para iniciar sesion como usuario usen 789 contraseña 123
+- Para iniciar sesion como Usuario, registrense en la aplicación.
+
+Gracias por su atención y colaboración
+
+ATTE: Victor Manuel 
